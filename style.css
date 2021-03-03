@@ -1,0 +1,65 @@
+.card
+{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width:250px;
+}
+
+/* hover */
+.card:hover img{
+    filter: blur(1px);
+}
+
+.card:hover .icons,.card:hover .stars{
+    display: block;
+}
+
+/* icons */
+
+/* heart */
+/* .fa-heart */
+.icons
+{
+    display: none;
+    position: absolute;
+    /* left: 800px; */
+    left:700px;
+    top: 30px;
+
+    top:5%;
+    font-size: 1.5em;
+    color:white;
+    /* color: red; */
+}
+
+/* stars */
+.stars
+{
+    display: none;
+    position: absolute;
+    left: 570px;
+    top: 230px;
+    font-size: 1em;
+    color:yellow;
+    text-align: center;
+}
+
+/* main*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+.text
+{
+    text-align: center;
+}
+#price b
+{
+    padding-right: 0.5em
+}
+strike{
+    color:gray;
+    padding-right: 0.3em
+}
